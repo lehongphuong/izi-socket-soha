@@ -1,5 +1,5 @@
   // the server of nodejs
-  const server = "http://localhost:3000";
+  const server = "https://izi-chat-soha.herokuapp.com:34567";
 
   // the server api of spring boot
   const serverAPI = "https://api.giadinhsunkun.com/p5sohadriving/P1Controller/C1Admin/SelectAllByWhat.php";
