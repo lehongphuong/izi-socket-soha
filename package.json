@@ -1,26 +1,19 @@
 {
-  "name": "web-chat",
+  "name": "websockets-socket.io",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  },
   "description": "",
-  "main": "server.js",
-  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "engines": {
-    "node": "12.17.x"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1",
     "express": "^4.17.1",
-    "http": "^0.0.1-security",
-    "mysql": "^2.18.1",
-    "nodemon": "^2.0.7",
-    "request": "^2.88.2",
-    "socket.io": "^4.1.2"
+    "socket.io": "^2.3.0"
   }
-  
 }
